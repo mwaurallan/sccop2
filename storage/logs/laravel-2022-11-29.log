@@ -1,0 +1,3 @@
+[2022-11-29 19:30:42] local.EMERGENCY: File:/var/www/html/ultimate-pos/app/Http/Controllers/SellPosController.phpLine:607Message:Trying to get property 'invoice_layout_id' of non-object  
+[2022-11-29 19:30:56] local.EMERGENCY: File:/var/www/html/ultimate-pos/app/Http/Controllers/SellPosController.phpLine:607Message:Trying to get property 'invoice_layout_id' of non-object  
+[2022-11-29 19:31:25] local.EMERGENCY: File:/var/www/html/ultimate-pos/app/Http/Controllers/SellPosController.phpLine:607Message:Trying to get property 'invoice_layout_id' of non-object  

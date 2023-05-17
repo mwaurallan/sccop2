@@ -1,0 +1,28 @@
+[2020-12-15 11:29:27] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /data/www/savbits/ultimate-pos/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2020-12-15 11:31:15] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /data/www/savbits/ultimate-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /data/www/savbits/ultimate-pos/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
