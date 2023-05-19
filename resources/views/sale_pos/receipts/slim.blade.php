@@ -493,6 +493,7 @@
 
 					<p><h5>Thank you For dinning With Us!!!!</h5></p>
 					<p><h5>When you Think Of Buggers Think Scoops</h5></p>
+					<p><h5></h5></p>{{ now()->format('H:i:s') }}
 				</h5>
 				</p>
 				<p class="centered">
