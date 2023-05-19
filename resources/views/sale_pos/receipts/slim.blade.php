@@ -489,10 +489,10 @@
 				<p class="centered"><h5>
 					{{--					{!! $receipt_details->footer_text !!}--}}
 
-					Mpesa Paybill:522522  -A/C No:5849468
+					Mpesa Till:5329411
 
-					<p><h5>Thank you For Shopping With Us!!!!</h5></p>
-					<p><h5>Goods Once Sold Cannot Be Returned</h5></p>
+					<p><h5>Thank you For dinning With Us!!!!</h5></p>
+					<p><h5>When you Think Of Buggers Think Scoops</h5></p>
 				</h5>
 				</p>
 				<p class="centered">
