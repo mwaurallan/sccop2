@@ -896,6 +896,12 @@ class SellController extends Controller
                     '=',
                     'bl.id'
                 )
+                ->leftjoin(
+                    'users as us',
+                    'transactions.created_by',
+                    '=',
+                    'us.id'
+                )
                 ->where('transactions.business_id', $business_id)
                 ->where('transactions.type', 'sell')
                 ->where('transactions.status', 'draft')
@@ -905,6 +911,8 @@ class SellController extends Controller
                     'transaction_date',
                     'invoice_no',
                     'contacts.name',
+                    'final_total',
+                    'us.username',
                     'bl.name as business_location',
                     'is_direct_sale'
                 );
@@ -934,6 +942,15 @@ class SellController extends Controller
                     $sells->where('transactions.created_by', $created_by);
                 }
             }
+
+            if (request()->has('final_total')){
+                $final_total = request()->get('final_total');
+                if(!empty($final_total)){
+                    $sels->where('transactions.final_total', $final_total);
+                }
+            }
+
+            
 
             if (!empty(request()->customer_id)) {
                 $customer_id = request()->customer_id;

@@ -53,6 +53,8 @@
                         <th>@lang('purchase.ref_no')</th>
                         <th>@lang('sale.customer_name')</th>
                         <th>@lang('sale.location')</th>
+                        <th>@lang('sale.amount')</th>
+                        <th>@lang('Drafted by')</th>
                         <th>@lang('messages.action')</th>
                     </tr>
                 </thead>
@@ -95,9 +97,9 @@ $(document).ready( function(){
                 }
                 d.customer_id = $('#sell_list_filter_customer_id').val();
 
-                if($('#created_by').length) {
-                    d.created_by = $('#created_by').val();
-                }
+                // if($('#created_by').length) {
+                //     d.created_by = $('#created_by').val();
+                // }
             }
         },
         columnDefs: [ {
@@ -110,6 +112,8 @@ $(document).ready( function(){
             { data: 'invoice_no', name: 'invoice_no'},
             { data: 'name', name: 'contacts.name'},
             { data: 'business_location', name: 'bl.name'},
+            { data: 'final_total', name: 'final_total'},
+            { data: 'username', name: 'us.username'},
             { data: 'action', name: 'action'}
         ],
         "fnDrawCallback": function (oSettings) {
