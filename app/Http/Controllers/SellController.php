@@ -902,6 +902,12 @@ class SellController extends Controller
                     '=',
                     'us.id'
                 )
+                ->leftjoin(
+                    'res_tables as rs',
+                    'transactions.res_table_id',
+                    '=',
+                    'rs.id'
+                )
                 ->where('transactions.business_id', $business_id)
                 ->where('transactions.type', 'sell')
                 ->where('transactions.status', 'draft')
@@ -913,6 +919,7 @@ class SellController extends Controller
                     'contacts.name',
                     'final_total',
                     'us.username',
+                    'rs.name as table_name',
                     'bl.name as business_location',
                     'is_direct_sale'
                 );

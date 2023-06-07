@@ -54,6 +54,7 @@
                         <th>@lang('sale.customer_name')</th>
                         <th>@lang('sale.location')</th>
                         <th>@lang('sale.amount')</th>
+                        <th>@lang('Table Name')</th>
                         <th>@lang('Drafted by')</th>
                         <th>@lang('messages.action')</th>
                     </tr>
@@ -113,6 +114,7 @@ $(document).ready( function(){
             { data: 'name', name: 'contacts.name'},
             { data: 'business_location', name: 'bl.name'},
             { data: 'final_total', name: 'final_total'},
+            { data: 'table_name', name: 'rs.table)name'},
             { data: 'username', name: 'us.username'},
             { data: 'action', name: 'action'}
         ],
