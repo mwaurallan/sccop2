@@ -114,7 +114,7 @@ $(document).ready( function(){
             { data: 'name', name: 'contacts.name'},
             { data: 'business_location', name: 'bl.name'},
             { data: 'final_total', name: 'final_total'},
-            { data: 'table_name', name: 'rs.table)name'},
+            { data: 'table_name', name: 'rs.table_name'},
             { data: 'username', name: 'us.username'},
             { data: 'action', name: 'action'}
         ],
